@@ -1,13 +1,15 @@
-@font-face {
+/*@font-face {
+    font-family: "Arial Black", Gadget, sans-serif;
     font-family: 'wf_segoe-ui_light';
     src: url('http://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot');
     src: url('http://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.eot?#iefix') format('embedded-opentype'), url('http://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.woff') format('woff'), url('http://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.ttf') format('truetype'), url('http://i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.svg#web') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6, h7, p, ul {
-    font-family: "wf_segoe-ui_light", sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: "wf_segoe-ui_light", sans-serif;*/
 }
 
 body {
