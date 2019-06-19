@@ -1,0 +1,12 @@
+@font-face
+{
+font-family: myFirstFont;
+src: url('RegencieLight.ttf')
+}
+
+div
+{
+font-family:myFirstFont;
+}
+
+h1, h2, h3, h4, h5, p{font-family:myFirstFont; } 
