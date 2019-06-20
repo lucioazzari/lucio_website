@@ -4,7 +4,7 @@ body {
     margin-top: 0px;
     margin-right: 15%;
     margin-left: 15%;
-    min-width: 350px;
+    min-width: 720px;
     background-color: #FFFFFF;
 }
 
@@ -30,3 +30,10 @@ a:link { color: #00f; }
 a:visited { color: #009; }
 a:hover { color: #06f; }
 a:active { color: #0cf; }
+
+@media screen and (max-width: 960px) {
+    body {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
