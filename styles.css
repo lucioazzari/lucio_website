@@ -4,13 +4,12 @@ body {
     margin-top: 0px;
     margin-right: 15%;
     margin-left: 15%;
-    min-width: 720px;
     background-color: #FFFFFF;
 }
 
 h1 {
     font-size: 4em;
-    font-weight: 100;
+    font-weight: normal;
 }
 
 a {
@@ -18,7 +17,13 @@ a {
 }
 
 h2,h3,h4,table,p,a{
-    font-weight: 100;
+    font-weight: normal;
+}
+
+h6{
+    font-style: italic;
+    color: crimson;
+
 }
 
 table.menu {
@@ -36,4 +41,12 @@ a:active { color: #0cf; }
         margin-right: 0px;
         margin-left: 0px;
     }
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
 }
