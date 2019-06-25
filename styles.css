@@ -31,6 +31,7 @@ h6{
 
 table.menu {
     font-size: 1.3em;
+    width: 100%;
 }
 
 a:link { color: #00f; }
