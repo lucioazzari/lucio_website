@@ -1,7 +1,12 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: testfont;
     background-color: #FFFFFF;
     min-width: 720px;
+}
+
+@font-face {
+    font-family: testfont;
+    src: url("hk-grotesk/HKGrotesk-Regular.otf") format("opentype");
 }
 
 .big_container{
